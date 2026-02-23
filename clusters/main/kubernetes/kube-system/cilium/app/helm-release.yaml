@@ -78,7 +78,7 @@ spec:
 
       cni:
         exclusive: false
-      enableIPv4BIGTCP: true
+      enableIPv4BIGTCP: false
 
       ## Dont deploy envoy or gatewayAPI as its not going to work nicely with upstream envoy extentions
       envoy:
