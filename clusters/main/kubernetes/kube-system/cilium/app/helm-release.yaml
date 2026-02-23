@@ -68,6 +68,7 @@ spec:
         datapathMode: netkit
         masquerade: true
         preallocateMaps: true
+        hostLegacyRouting: true
         # tproxy: true
 
       ## NO BGP
